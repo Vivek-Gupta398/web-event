@@ -1,0 +1,118 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>registration</title>
+<style>
+
+#bg{
+font-size:40px;
+margin-right:800px;
+
+}
+ 
+</style>
+</head>
+<body>
+<div id="bg"><br>
+<center>Event Registration</center><br>
+
+</div>
+ 
+				<div class="container-fluid">
+                <div class="row">
+					 
+                    <div class="col-md-6 m-auto d-block">
+                        <div class="panel panel-primary" id="temp">
+                            <div class="panel-heading" id="temp1">
+			 </div>
+				<form id="form_register">			
+				<div class="panel-body">
+							 
+									<div class="form-group">
+										<label for="Name">Name</label>
+                                        <input type="text" class="form-control" name="name" id="name" required>
+					<span id="alt1" class="text-danger font-weight-bold"> </span>
+                                    </div>
+									
+									<div class="form-group">
+										<label for="mobileNo">Mobile Number</label>
+                                        <input type="text" class="form-control" name="mobileNo" id="mobileNo" required>
+					<span id="alt2" class="text-danger font-weight-bold"> </span>
+                                    </div>
+									
+				<div class="form-group">
+										<label for="emailId">Email Id</label>
+                                        <input type="email" class="form-control" name="emailId" id="emailId" required>
+					<span id="alt3" class="text-danger font-weight-bold"> </span>
+                                    </div>
+							
+						<div class="form-group">
+							<label for="Number of tickets">Number of tickets</label>
+									  <input type="text" class="form-control" name="no_of_tickets" id="no_of_tickets" required> 
+							<span id="alt4" class="text-danger font-weight-bold"> </span>
+									</div>
+									 				
+								 
+								<div class="radio">
+								  <label><input type="radio" name="optradio" id="optradio"  value="Band Concert" >Band Concert</label>
+								<span id="alt5" class="text-danger font-weight-bold"> </span>
+								</div>
+								<div class="radio">
+								  <label><input type="radio" name="optradio" id="optradio"  value="Opera Concert">Opera Concert</label>
+								<span id="alt5" class="text-danger font-weight-bold"> </span>
+								</div>
+								<div class="radio">
+								  <label><input type="radio" name="optradio" id="optradio"  value="Recitals">Recitals </label>
+								<span id="alt5" class="text-danger font-weight-bold"> </span>
+								</div>
+								<br>
+								 
+
+								
+									<div class="form-group"> 
+									<label for="demo_overview">Select Budget</label>
+									  <select class="form-control" data-role="select-dropdown" id="dropdown" data-profile="minimal" required>
+										<option>5000 Front stage</option>
+										<option>3500 Middle</option>
+										<option>2500 Balcony</option>
+										 
+									  </select><br><br>	
+									 <span id="alt6" class="text-danger font-weight-bold"> </span>
+									</div>										
+											 													
+								       </div>
+										<center><input type="button" onclick="return initial3()" class="btn btn-primary" value="Submit"</center>
+									</form>
+							</div>
+					</div>
+					
+				</div>
+			
+			<div class="name">
+                    <p>&copy; Copyright 2020</p>
+                    <a href="mailto:"musicert@gmail.com">musicert@gmail.com</a></p>
+              </div>
+			</div>
+			 
+<div id="show_list">
+            
+            <div class="container-fluid">
+                <div class="table-responsive">
+                    <div id="demo1"></div>
+                </div>
+            
+            </div>
+             
+       </div>
+</div>
+        
+        <script src="jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+    
+
+ 
+   
+
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Concert Events</title>
+
+  
+   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>    
+
+<style>
+ 
+ 
+</style>
+</head>
+<body>
+ 
+
+
+
+
+
+<body>
+
+<header>
+
+ 
+ 
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#clearfixMainbar">
+<span class="navbar-toggler-icon"></span>
+</button>
+ 
+<div class="row clearfix" id="clearfixMainbar">
+<img src="5.jpg" width= 100px height="100px class="logo">
+<ul class="main-nav row clearfix" role="tablist">
+<li class="nav-item"><a class="main-link active" data-toggle="pill" href="" onclick="initial()">Home</a></li>
+<li class="nav-item"><a class="main-link" data-toggle="pill" href="" onclick="initial1()">Registration</a></li>
+<li class="nav-item"><a class="main-link" id="ii2" data-toggle="pill" href="" onclick="initial2()">Show list</a></li>
+
+ 
+</ul>
+</div>
+
+<div id="home"> 
+<div class="main-content">
+<h1>Welcome to Live Music Concert Events</h1>
+ 
+ 
+<h3>Watch These Livestreamed Concerts During Your Social Distancing</h3>
+
+<p>
+At this point, just about every concert has been canceled due to the coronavirus pandemic — and if it’s not, you really shouldn’t be going anyway. As artists scramble to figure out what to do next, many have started livestreaming concerts on social media from their homes, empty venues, or wherever they can while they practice social distancing. Here’s a list of the performances you should be checking out while you stay inside, too, updated as more artists announce their livestream plans. And, hey, since you’re getting all this good, live music for free, why not use that ticket money to order merch from an independent artist right now who could really use the business?
+
+Below, check the schedule of artists hosting recurring livestreams, updated daily. All times are in Eastern Standard.</p>
+
+<p>
+<h4>DJ D-Nice</h4>
+The DJ of Boogie Down productions fame, whose star-studded Instagram parties have drawn everyone from Oprah Winfrey to Rihanna to Joe Biden, recently performed a prom on House Party. He previously DJ’d the televised return of Club MTV on April 25, partnered with Michelle Obama and When We All Vote for a #CouchParty on March 25, and DJ’d his “Homeschool” party for ten hours on March 21.
+</p>
+
+<p>
+<h4>Miley Cyrus: Bright Minded</h4>
+While it’s not quite a concert, Cyrus has been livestreaming with a slew of guests at 2:30 p.m. Monday through Friday on her Instagram. Come for the revelation that her and Demi Lovato probably hooked up during their Disney days, stay for the Cyrus family reunion. Her show’s guests so far have included everyone from Reese Witherspoon to Hilary Duff to a Hannah Montana reunion with Emily Osment to a revealing reunion with Selena Gomez.
+</p>
+
+<p><h4>Diplo</h4>
+A fixture of our new livestreamed era since his first set on March 13, the producer is now streaming themed sets five nights per week: A Very Lazer Sunday (inspired by his group Major Lazer) at 4 p.m., Ronatronix (for his early Hollertronix parties) on Tuesdays at 10 p.m., The Thomas Wesley Show (country) Thursdays at 10, Corona Sabbath (ambient) Fridays at 11 p.m., and Coronight Fever (“a good, old-fashioned … rave) Saturdays at 11. A press release confirmed that all the musicians he spins will be paid: “In an unprecedented coordinated effort, major publishers and record labels will allow the archived streams to live on YouTube and to be monetized by respective rights holders, with royalties being paid to all those whose music is played in the shows,” it said.
+</p>
+</div>
+</div>
+
+<div id="registration">
+
+
+<div id="bg"><br>
+<center>Event Registration</center><br>
+
+</div>
+ 
+				<div class="container-fluid">
+                <div class="row">
+					 
+                    <div class="col-md-6 m-auto d-block">
+                        <div class="panel panel-primary" id="temp">
+                            <div class="panel-heading" id="temp1">
+			 </div>
+				<form id="form_register">			
+				<div class="panel-body">
+							 
+									<div class="form-group">
+										<label for="Name">Name</label>
+                                        <input type="text" class="form-control" name="name" id="name" required>
+					<span id="alt1" class="text-danger font-weight-bold"> </span>
+                                    </div>
+									
+									<div class="form-group">
+										<label for="mobileNo">Mobile Number</label>
+                                        <input type="text" class="form-control" name="mobileNo" id="mobileNo" required>
+					<span id="alt2" class="text-danger font-weight-bold"> </span>
+                                    </div>
+									
+				<div class="form-group">
+										<label for="emailId">Email Id</label>
+                                        <input type="email" class="form-control" name="emailId" id="emailId" required>
+					<span id="alt3" class="text-danger font-weight-bold"> </span>
+                                    </div>
+							
+						<div class="form-group">
+							<label for="Number of tickets">Number of tickets</label>
+									  <input type="text" class="form-control" name="no_of_tickets" id="no_of_tickets" required> 
+							<span id="alt4" class="text-danger font-weight-bold"> </span>
+									</div>
+									 				
+								 
+								<div class="radio">
+								  <label><input type="radio" name="optradio" id="optradio"  value="Band Concert" >Band Concert</label>
+								<span id="alt5" class="text-danger font-weight-bold"> </span>
+								</div>
+								<div class="radio">
+								  <label><input type="radio" name="optradio" id="optradio"  value="Opera Concert">Opera Concert</label>
+								<span id="alt5" class="text-danger font-weight-bold"> </span>
+								</div>
+								<div class="radio">
+								  <label><input type="radio" name="optradio" id="optradio"  value="Recitals">Recitals </label>
+								<span id="alt5" class="text-danger font-weight-bold"> </span>
+								</div>
+								<br>
+								 
+
+								
+									<div class="form-group"> 
+									<label for="demo_overview">Select Budget</label>
+									  <select class="form-control" data-role="select-dropdown" id="dropdown" data-profile="minimal" required>
+										<option>5000 Front stage</option>
+										<option>3500 Middle</option>
+										<option>2500 Balcony</option>
+										 
+									  </select><br><br>	
+									 <span id="alt6" class="text-danger font-weight-bold"> </span>
+									</div>										
+											 													
+								       </div>
+										<center><input type="button" onclick="return initial3()" class="btn btn-primary" value="Submit"</center>
+									</form>
+							</div>
+					</div>
+					
+				</div>
+			
+			<div class="name">
+                    <p>&copy; Copyright 2020</p>
+                    <a href="mailto:"musicert@gmail.com">musicert@gmail.com</a></p>
+              </div>
+			</div>
+			 
+<div id="show_list">
+            
+            <div class="container-fluid">
+                <div class="table-responsive">
+                    <div id="demo1"></div>
+                </div>
+            
+            </div>
+             
+       </div>
+</div>
+        
+        <script src="jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+    
+
+ 
+   
+ 
+</header>
+ 
+
+ 
+ 
+</body>
+
+</html>
